@@ -17,6 +17,17 @@ How to Run it:
 Users can open featured calendar and enter upcoming events or due dates for assignments/ test/ Practice/ Games. Dashboard will also feature upcoming deadlines and available study time making it easier to plan each week effectively.
 
 
-Progress: “Feature 1: weekly schedule calendar, built with AI assistance and tested with node test.js.”
+Progress:
+“Feature 1: weekly schedule calendar, built with AI assistance and tested with node test.js.”
+“Feature 2: dashboard with upcoming deadlines and weekly study time, built with AI assistance and tested with node test.js.”
+“Feature 3: assignments with priorities and in-page reminders, feeding the dashboard, built with AI assistance and tested with node test.js.”
+
+
+Tests':
+Fresh start: the page loads with 7 day columns, sample events, and sample assignments, with today highlighted and no JavaScript errors.
+Add, save, and delete: An added assignment survived a page reload, and deleting it worked.
+Reminders and overdue: the reminder shows, and the overdue History item is red. Marking a assignment done clears the reminder and removes it from “Coming up”.
+Layout and labels: there’s no sideways scrolling at 320, 390, 768, or 1200 px, and every button and input has an accessible name.
+Adding events is easily done for the day you choose to help organize your week.
 
 AI assistance: AI(claude ai) helped me organize the different features and how I could use my ideas as features on an actual website.
